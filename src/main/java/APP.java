@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Joshua Ashby
+ */
 import java.util.Scanner;
 
 public class APP {
@@ -8,8 +12,9 @@ public class APP {
         String Quote = sc.nextLine();
         System.out.println("Who said it?");
         String QuoteSayer  = sc.nextLine();
-        System.out.print(QuoteSayer + ", says \"");
-        System.out.print(Quote + "\"");
+        String OutPutString = QuoteSayer + " says, \"" + Quote + "\"";
+
+        System.out.print(OutPutString);
 
     }
 }
